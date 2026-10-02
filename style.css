@@ -1,0 +1,49 @@
+html
+*{
+  font-family:고딕체; 
+}
+
+       h1{color:blue; 
+          background-color:lightgreen; 
+          border:2px solid orange; 
+          padding:20px; 
+          border-radius:35px;
+          text-align:center;
+          box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+h1:hover{
+  background-color:green;
+}
+        
+       p{
+         font-weight:bold;
+         text-align:center;
+         text-decoration:underline;
+        }
+        
+      li{
+         text-decoration:underline;
+        }
+
+      h1#macdonalds {
+         background-color: skyblue;
+        } 
+      h1#macdonalds:hover {
+   background-color:blue;
+ }
+      p#kfc{
+        color:gray;
+      }
+      li.inner{
+        text-decoration:none; 
+        color:brown; 
+      }
+      #kfc, .inner{
+        font-weight:bold;
+      }
+h3 div{
+  color:red;
+}
+h3 > div {
+  color:blue; 
+}
